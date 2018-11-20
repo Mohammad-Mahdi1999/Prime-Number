@@ -1,6 +1,6 @@
 // In the name of God !
 //Prime Number
-//
+//v1.0
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
