@@ -1,22 +1,22 @@
 // In the name of God !
 //Prime Number
-//v1.0
+//v2.0
 #include "stdafx.h"
 #include <iostream>
 using namespace std;
 
 void main()
 {
-	int num, i,c=0;
-	cout << "Enter a number:";
-	cin >> num;
-	for (i = 1; i <= num; i++)
-		if (num%i == 0)
-			c++;
-	if (c == 2)
-		cout << "This is a Prime Number!" << endl;
-	else 
-		cout << "This is a Compound Number!" << endl;
+	int i,c,j;
+	for (i = 100; i < 1000; i++)
+	{
+		c = 0;
+		for (j = 1; j <= i; j++)
+			if (i%j == 0)
+				c++;
+		if (c == 2)
+			cout << i << endl;
+	}
 
 	cin.get();
 	cin.ignore();

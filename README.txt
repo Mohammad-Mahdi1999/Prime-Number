@@ -1,4 +1,2 @@
 # Prime-Number
-Prime || Compound?
-OPen "Debug" folder.
-Run "Prime Number".
+3 digit prime numbers
